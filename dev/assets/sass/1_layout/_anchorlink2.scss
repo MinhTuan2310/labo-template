@@ -1,0 +1,9 @@
+.c-anchorlink2 {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5rem;
+
+    padding-top: 3rem;
+  }
+}

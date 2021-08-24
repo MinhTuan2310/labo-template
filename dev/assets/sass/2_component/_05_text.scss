@@ -4,3 +4,43 @@ text
 
 /*
 ------------------------------------------------------------*/
+.c-link2__text {
+  padding: 2.5rem 0;
+  a {
+    color: red;
+  }
+}
+.c-link2__text--small {
+  padding: 1rem 0;
+  a {
+    color: red;
+  }
+}
+.c-links__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+
+}
+.u-dark-blue {
+  color: #11638a;
+}
+.u-dark-pink {
+  color: #f5989d;
+}
+.c-link2__text2 {
+  font-weight: 600;
+
+  border: 1px solid currentColor;
+  padding: 2.5rem;
+
+}
+ol {
+  list-style-type: decimal;
+  color: #f5989d;
+  padding-left: 15px;
+
+  margin-bottom: 3.5rem;
+  span {
+    color: black;
+  }
+}

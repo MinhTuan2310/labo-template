@@ -6,11 +6,13 @@ title
 /*
 ------------------------------------------------------------*/
 .c-title1{
-	padding: 1rem 2rem;
+	padding: 1rem 2.2rem;
 
   display: inline-block;
   font-size: 1.6rem;
   font-weight: bold;
+
+  line-height: 1;
 }
 .c-title2 {
   padding: 1.1rem;
@@ -45,7 +47,7 @@ title
     position: absolute;
     content: "";
     top: 0;
-    left: 0;
+    left: 0;  
     bottom: 0;
     width: 0.7rem;
 
@@ -66,5 +68,39 @@ title
     width: 0.7rem;
 
     background-color: $blue-color;
+  }
+}
+.c-title2--dark-blue {
+  background-color: #bcd5e1;
+  // border: 2px solid $blue-color;
+  position: relative;
+  color: #11638a;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 0.7rem;
+
+    background-color: currentColor;
+  }
+}
+
+.c-title2--pink2 {
+  background-color: #ffe8e9;
+  position: relative;
+  color: #f5989d;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;  
+    bottom: 0;
+    width: 0.7rem;
+
+    background-color: currentColor;
   }
 }

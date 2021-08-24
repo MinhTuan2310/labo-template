@@ -42,3 +42,22 @@ section{
 		font-size: 1.4rem;
 	}
 }
+
+.c-link1__head {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+
+    border-bottom: 2px solid #ccc;
+}
+.c-block-head {
+	padding: 10px 0;
+	a {
+		text-transform: uppercase;
+	}
+}
+.c-block-head--bottom {
+		border-top: 1px solid #ccc;
+}

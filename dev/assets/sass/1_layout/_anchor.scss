@@ -1,0 +1,35 @@
+
+.c-link1 {
+  padding-top: 4rem;
+  .c-block-head {
+    .container {
+      display: inline-flex;
+      align-items: baseline;
+    }
+  }
+  .c-block-head a {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .c-block-head span:last-of-type {
+    font-weight: 600;
+  }
+  .c-block-head i:nth-of-type(2){
+    font-size: 1rem;
+  }
+}
+
+.c-anchor {
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+  }
+  &__item {
+    padding: 1.2rem 0;
+    color: white;
+    border-radius: 6px;
+
+    text-align: center;
+  }
+}

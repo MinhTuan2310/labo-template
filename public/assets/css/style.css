@@ -147,13 +147,7 @@ img {
 footer
 ------------------------------------------------------------*/
 .c-footer {
-  padding-top: 10px;
   border-top: 2px solid #ccc;
-}
-
-.c-footer .c-block-head {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
 }
 
 .c-footer__content {
@@ -344,6 +338,106 @@ sidebar
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5rem;
+  padding-bottom: 5rem;
+}
+
+.c-blog__action button {
+  display: block;
+  width: 100%;
+  margin-bottom: 11.5rem;
+}
+
+.c-link1 {
+  padding-top: 4rem;
+}
+
+.c-link1 .c-block-head .container {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+}
+
+.c-link1 .c-block-head a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.c-link1 .c-block-head span:last-of-type {
+  font-weight: 600;
+}
+
+.c-link1 .c-block-head i:nth-of-type(2) {
+  font-size: 1rem;
+}
+
+.c-anchor__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+}
+
+.c-anchor__item {
+  padding: 1.2rem 0;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.c-anchorlink1__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.c-anchorlink1__title {
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.c-anchorlink1__title a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.c-anchorlink2__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5rem;
+  padding-top: 3rem;
+}
+
+.c-anchorlink3__caption {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #ece6e6;
+  font-size: 1.6rem;
+}
+
+.c-anchorlink3__title {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.c-anchorlink3__title a {
+  text-decoration: underline;
+  color: red;
+}
+
+.c-anchorlink3__table {
+  margin-bottom: 5rem;
+}
+
+section.c-link2__link h1 {
+  padding: 23px 0;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  text-align: center;
+  line-height: 1;
+  background-color: #6dcff6;
+  border: 1px solid black;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 /* layout
@@ -388,6 +482,26 @@ section {
   font-size: 1.4rem;
 }
 
+.c-link1__head {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.c-block-head {
+  padding: 10px 0;
+}
+
+.c-block-head a {
+  text-transform: uppercase;
+}
+
+.c-block-head--bottom {
+  border-top: 1px solid #ccc;
+}
+
 /*≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 // Component .c-
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡*/
@@ -406,6 +520,13 @@ btn
   text-transform: uppercase;
   color: white;
   border: 2px solid black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.c-btn1:hover {
+  opacity: 0.8;
 }
 
 /*------------------------------------------------------------
@@ -414,10 +535,11 @@ title
 /*
 ------------------------------------------------------------*/
 .c-title1 {
-  padding: 1rem 2rem;
+  padding: 1rem 2.2rem;
   display: inline-block;
   font-size: 1.6rem;
   font-weight: bold;
+  line-height: 1;
 }
 
 .c-title2 {
@@ -476,6 +598,38 @@ title
   background-color: #6dcff6;
 }
 
+.c-title2--dark-blue {
+  background-color: #bcd5e1;
+  position: relative;
+  color: #11638a;
+}
+
+.c-title2--dark-blue:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0.7rem;
+  background-color: currentColor;
+}
+
+.c-title2--pink2 {
+  background-color: #ffe8e9;
+  position: relative;
+  color: #f5989d;
+}
+
+.c-title2--pink2:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0.7rem;
+  background-color: currentColor;
+}
+
 /*------------------------------------------------------------
 icon
 ------------------------------------------------------------*/
@@ -491,6 +645,52 @@ text
 ------------------------------------------------------------*/
 /*
 ------------------------------------------------------------*/
+.c-link2__text {
+  padding: 2.5rem 0;
+}
+
+.c-link2__text a {
+  color: red;
+}
+
+.c-link2__text--small {
+  padding: 1rem 0;
+}
+
+.c-link2__text--small a {
+  color: red;
+}
+
+.c-links__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.u-dark-blue {
+  color: #11638a;
+}
+
+.u-dark-pink {
+  color: #f5989d;
+}
+
+.c-link2__text2 {
+  font-weight: 600;
+  border: 1px solid currentColor;
+  padding: 2.5rem;
+}
+
+ol {
+  list-style-type: decimal;
+  color: #f5989d;
+  padding-left: 15px;
+  margin-bottom: 3.5rem;
+}
+
+ol span {
+  color: black;
+}
+
 /*------------------------------------------------------------
 navi
 ------------------------------------------------------------*/
@@ -511,6 +711,47 @@ table
 ------------------------------------------------------------*/
 /*
 ------------------------------------------------------------*/
+table, td, th {
+  border: 1px solid #ccc;
+  line-height: 1;
+}
+
+.c-table1 {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.c-table1 th:not(:first-child) {
+  padding: 1rem 5.5rem;
+}
+
+.c-table1 th {
+  background-color: #a3d39c;
+  color: white;
+}
+
+.c-table1 td {
+  padding: 1rem 1.6rem;
+}
+
+.c-table1 tr td:first-child {
+  background-color: #ece6e6;
+}
+
+.c-table1 tr:last-child td:first-child {
+  background-color: #6dcff6;
+}
+
+.c-link2 .c-table1 {
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 12.5rem;
+}
+
+.c-link2 .c-table1 tr:last-child td:first-child {
+  background-color: #ece6e6;
+}
+
 /*------------------------------------------------------------
 line
 ------------------------------------------------------------*/
@@ -578,6 +819,26 @@ Css of home page
 
 .u-orange {
   background-color: #f68e56;
+}
+
+.u-blue {
+  background-color: #6dcff6;
+}
+
+.u-mbs {
+  margin-bottom: 10px;
+}
+
+.u-mts {
+  margin-top: 10px;
+}
+
+.u-mb-70 {
+  margin-bottom: 7rem;
+}
+
+.u-mb-35 {
+  margin-bottom: 3.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
