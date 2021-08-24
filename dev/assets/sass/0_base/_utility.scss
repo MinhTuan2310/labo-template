@@ -1,0 +1,41 @@
+///*------------------------------------------------------------
+//Anchor position
+//------------------------------------------------------------*/
+//.u-anchor:before{
+//	content:"";
+//	margin-top: -100px;
+//	padding-top: 100px;
+//}
+
+//------------------------------------------------------------
+// margin
+//------------------------------------------------------------
+
+//------------------------------------------------------------
+// color
+//------------------------------------------------------------
+
+.u-text-upper {
+	text-transform: uppercase;
+  font-weight: 500;
+}
+
+.u-pink {
+  background-color: $pink-dark-color;
+}
+.u-green {
+  background-color: $green-color;
+}
+.u-light-yellow {
+  background-color: $yellow-light-color;
+}
+.u-dark-yellow {
+  background-color: $yellow-dark-color;
+}
+.u-medium-yellow {
+  background-color: $yellow-medium-color;
+}
+
+.u-orange {
+  background-color: $orange-color;
+}

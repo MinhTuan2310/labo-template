@@ -1,0 +1,21 @@
+.c-header {
+    min-height: 5rem;
+    padding-top: 20px;
+    .l-container {
+        display: flex;
+        align-items: center;
+    }
+    .c-gnav {
+        margin-left: auto;
+
+        ul {
+            display: flex;
+        }
+        li:not(:first-child) {
+            margin-left: 3.5rem;
+        }
+        li:first-child {
+            font-weight: bold;
+        }
+    }
+}

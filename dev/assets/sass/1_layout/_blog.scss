@@ -1,0 +1,10 @@
+.c-blog {
+  .c-title2 {
+    margin-bottom: 3rem;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+  }
+}

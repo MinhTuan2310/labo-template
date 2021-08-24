@@ -1,0 +1,75 @@
+/*------------------------------------------------------------
+footer
+------------------------------------------------------------*/
+.c-footer {
+    padding-top: 10px;
+    border-top: 2px solid #ccc;
+    .c-block-head {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    &__content {
+        background-color: #fafafa;
+        .l-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 5rem;
+        }
+    }
+    &__item {
+        padding-top: 4rem;
+        h3 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+        ul {
+            padding-top: 1rem;
+            padding-bottom: 4rem;
+            
+            font-weight: 500;
+        }
+        li {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__item:first-child li:before {
+        content: "\f111";
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        font-size: 0.5rem;
+        margin-right: 5px;
+    }
+    &__item:nth-child(2) li:before {
+        content: "\f054";
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        font-size: 0.8rem;
+        margin-right: 5px;
+    }
+    &__item:last-child li:before {
+        content: "\f0c1";
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        font-size: 0.8rem;
+        margin-right: 5px;
+    }
+
+    &__bottom{
+        padding: 20px 20px;
+        text-align: center;
+        
+        border-top: 2px solid #ccc;
+    
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+
+
+
