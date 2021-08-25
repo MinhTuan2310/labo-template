@@ -347,27 +347,27 @@ sidebar
   margin-bottom: 11.5rem;
 }
 
-.c-link1 {
+.c-link1, .c-link2 {
   padding-top: 4rem;
 }
 
-.c-link1 .c-block-head .container {
+.c-link1 .c-block-head .container, .c-link2 .c-block-head .container {
   display: -webkit-inline-box;
   display: inline-flex;
   -webkit-box-align: baseline;
   align-items: baseline;
 }
 
-.c-link1 .c-block-head a {
+.c-link1 .c-block-head a, .c-link2 .c-block-head a {
   font-weight: 600;
   text-decoration: underline;
 }
 
-.c-link1 .c-block-head span:last-of-type {
+.c-link1 .c-block-head span:last-of-type, .c-link2 .c-block-head span:last-of-type {
   font-weight: 600;
 }
 
-.c-link1 .c-block-head i:nth-of-type(2) {
+.c-link1 .c-block-head i:nth-of-type(2), .c-link2 .c-block-head i:nth-of-type(2) {
   font-size: 1rem;
 }
 
@@ -417,15 +417,16 @@ sidebar
 .c-anchorlink3__title {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+  font-weight: 600;
 }
 
 .c-anchorlink3__title a {
   text-decoration: underline;
-  color: red;
 }
 
 .c-anchorlink3__table {
   margin-bottom: 5rem;
+  font-weight: 600;
 }
 
 section.c-link2__link h1 {
@@ -445,8 +446,8 @@ section.c-link2__link h1 {
 body {
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   font-size: 1.4rem;
-  min-width: 1000px;
   line-height: 1.5;
+  color: #222222;
 }
 
 @media only screen and (max-width: 767px) {
@@ -647,6 +648,7 @@ text
 ------------------------------------------------------------*/
 .c-link2__text {
   padding: 2.5rem 0;
+  font-weight: 600;
 }
 
 .c-link2__text a {
@@ -655,6 +657,7 @@ text
 
 .c-link2__text--small {
   padding: 1rem 0;
+  font-weight: 600;
 }
 
 .c-link2__text--small a {
@@ -680,15 +683,22 @@ text
   padding: 2.5rem;
 }
 
-ol {
-  list-style-type: decimal;
+.c-list {
+  font-weight: 600;
   color: #f5989d;
-  padding-left: 15px;
   margin-bottom: 3.5rem;
 }
 
-ol span {
+.c-list span {
   color: black;
+}
+
+li > ul {
+  margin-left: 2.5rem;
+}
+
+ul, li {
+  line-height: 1.8;
 }
 
 /*------------------------------------------------------------
@@ -743,6 +753,7 @@ table, td, th {
 }
 
 .c-link2 .c-table1 {
+  font-weight: 600;
   width: 100%;
   margin-top: 1.5rem;
   margin-bottom: 12.5rem;
@@ -750,6 +761,20 @@ table, td, th {
 
 .c-link2 .c-table1 tr:last-child td:first-child {
   background-color: #ece6e6;
+}
+
+.c-table2 {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.c-table2 tr td:not(:first-child) {
+  padding: 1rem 4.7rem;
+}
+
+.c-table2 tr td:first-child {
+  padding: 1.2rem 1.6rem;
+  background-color: #d3d7d9;
 }
 
 /*------------------------------------------------------------
@@ -819,6 +844,14 @@ Css of home page
 
 .u-orange {
   background-color: #f68e56;
+}
+
+.u-text-orange {
+  color: #f68e56;
+}
+
+.u-text-red {
+  color: red;
 }
 
 .u-blue {

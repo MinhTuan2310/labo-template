@@ -4,14 +4,17 @@ text
 
 /*
 ------------------------------------------------------------*/
+
 .c-link2__text {
   padding: 2.5rem 0;
+  font-weight: 600;
   a {
     color: red;
   }
 }
 .c-link2__text--small {
   padding: 1rem 0;
+  font-weight: 600;
   a {
     color: red;
   }
@@ -34,13 +37,17 @@ text
   padding: 2.5rem;
 
 }
-ol {
-  list-style-type: decimal;
+.c-list {
+  font-weight: 600;
   color: #f5989d;
-  padding-left: 15px;
-
   margin-bottom: 3.5rem;
   span {
     color: black;
   }
+}
+li > ul {
+  margin-left: 2.5rem;
+}
+ul, li {
+  line-height: 1.8
 }

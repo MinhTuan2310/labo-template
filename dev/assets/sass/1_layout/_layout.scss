@@ -3,11 +3,12 @@
 body{
 	font-family: $mainFonts;
 	font-size: 1.4rem;
-	min-width: $baseWidth;
 	line-height: 1.5;
 	@include breakpoint(sp) {
 		min-width: 320px;
 	}
+
+	color: #222222;
 }
 //-------------------------------------------------------
 main{
